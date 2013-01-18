@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9741FCC816A94CE200FCA84E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9741FCC716A94CE200FCA84E /* UIKit.framework */; };
+		9741FCCA16A94CE200FCA84E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9741FCC916A94CE200FCA84E /* Foundation.framework */; };
+		9741FCCC16A94CE200FCA84E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9741FCCB16A94CE200FCA84E /* CoreGraphics.framework */; };
+		9741FCCE16A94CE200FCA84E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9741FCCD16A94CE200FCA84E /* CoreData.framework */; };
+		9741FCD416A94CE200FCA84E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9741FCD216A94CE200FCA84E /* InfoPlist.strings */; };
+		9741FCD616A94CE200FCA84E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9741FCD516A94CE200FCA84E /* main.m */; };
+		9741FCDA16A94CE200FCA84E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9741FCD916A94CE200FCA84E /* AppDelegate.m */; };
+		9741FCDC16A94CE200FCA84E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9741FCDB16A94CE200FCA84E /* Default.png */; };
+		9741FCDE16A94CE200FCA84E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9741FCDD16A94CE200FCA84E /* Default@2x.png */; };
+		9741FCE016A94CE200FCA84E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9741FCDF16A94CE200FCA84E /* Default-568h@2x.png */; };
+		9741FCE316A94CE200FCA84E /* MyPaint.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9741FCE116A94CE200FCA84E /* MyPaint.xcdatamodeld */; };
+		9741FCEC16A94D4900FCA84E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9741FCEA16A94D4900FCA84E /* MainViewController.m */; };
+		9741FCED16A94D4900FCA84E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9741FCEB16A94D4900FCA84E /* MainViewController.xib */; };
+		9741FCF816A9506400FCA84E /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9741FCF716A9506400FCA84E /* PaintView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9741FCC316A94CE200FCA84E /* MyPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9741FCC716A94CE200FCA84E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9741FCC916A94CE200FCA84E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9741FCCB16A94CE200FCA84E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9741FCCD16A94CE200FCA84E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9741FCD116A94CE200FCA84E /* MyPaint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPaint-Info.plist"; sourceTree = "<group>"; };
+		9741FCD316A94CE200FCA84E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9741FCD516A94CE200FCA84E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9741FCD716A94CE200FCA84E /* MyPaint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPaint-Prefix.pch"; sourceTree = "<group>"; };
+		9741FCD816A94CE200FCA84E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9741FCD916A94CE200FCA84E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9741FCDB16A94CE200FCA84E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9741FCDD16A94CE200FCA84E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9741FCDF16A94CE200FCA84E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9741FCE216A94CE200FCA84E /* MyPaint.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyPaint.xcdatamodel; sourceTree = "<group>"; };
+		9741FCE916A94D4900FCA84E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9741FCEA16A94D4900FCA84E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9741FCEB16A94D4900FCA84E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9741FCF616A9506400FCA84E /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		9741FCF716A9506400FCA84E /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9741FCC016A94CE100FCA84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9741FCC816A94CE200FCA84E /* UIKit.framework in Frameworks */,
+				9741FCCA16A94CE200FCA84E /* Foundation.framework in Frameworks */,
+				9741FCCC16A94CE200FCA84E /* CoreGraphics.framework in Frameworks */,
+				9741FCCE16A94CE200FCA84E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9741FCB816A94CE100FCA84E = {
+			isa = PBXGroup;
+			children = (
+				9741FCF616A9506400FCA84E /* PaintView.h */,
+				9741FCF716A9506400FCA84E /* PaintView.m */,
+				9741FCCF16A94CE200FCA84E /* MyPaint */,
+				9741FCC616A94CE200FCA84E /* Frameworks */,
+				9741FCC416A94CE200FCA84E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9741FCC416A94CE200FCA84E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9741FCC316A94CE200FCA84E /* MyPaint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9741FCC616A94CE200FCA84E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9741FCC716A94CE200FCA84E /* UIKit.framework */,
+				9741FCC916A94CE200FCA84E /* Foundation.framework */,
+				9741FCCB16A94CE200FCA84E /* CoreGraphics.framework */,
+				9741FCCD16A94CE200FCA84E /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9741FCCF16A94CE200FCA84E /* MyPaint */ = {
+			isa = PBXGroup;
+			children = (
+				9741FCD816A94CE200FCA84E /* AppDelegate.h */,
+				9741FCD916A94CE200FCA84E /* AppDelegate.m */,
+				9741FCE116A94CE200FCA84E /* MyPaint.xcdatamodeld */,
+				9741FCD016A94CE200FCA84E /* Supporting Files */,
+				9741FCE916A94D4900FCA84E /* MainViewController.h */,
+				9741FCEA16A94D4900FCA84E /* MainViewController.m */,
+				9741FCEB16A94D4900FCA84E /* MainViewController.xib */,
+			);
+			path = MyPaint;
+			sourceTree = "<group>";
+		};
+		9741FCD016A94CE200FCA84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9741FCD116A94CE200FCA84E /* MyPaint-Info.plist */,
+				9741FCD216A94CE200FCA84E /* InfoPlist.strings */,
+				9741FCD516A94CE200FCA84E /* main.m */,
+				9741FCD716A94CE200FCA84E /* MyPaint-Prefix.pch */,
+				9741FCDB16A94CE200FCA84E /* Default.png */,
+				9741FCDD16A94CE200FCA84E /* Default@2x.png */,
+				9741FCDF16A94CE200FCA84E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9741FCC216A94CE100FCA84E /* MyPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9741FCE616A94CE200FCA84E /* Build configuration list for PBXNativeTarget "MyPaint" */;
+			buildPhases = (
+				9741FCBF16A94CE100FCA84E /* Sources */,
+				9741FCC016A94CE100FCA84E /* Frameworks */,
+				9741FCC116A94CE100FCA84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPaint;
+			productName = MyPaint;
+			productReference = 9741FCC316A94CE200FCA84E /* MyPaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9741FCBA16A94CE100FCA84E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tpham;
+			};
+			buildConfigurationList = 9741FCBD16A94CE100FCA84E /* Build configuration list for PBXProject "MyPaint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9741FCB816A94CE100FCA84E;
+			productRefGroup = 9741FCC416A94CE200FCA84E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9741FCC216A94CE100FCA84E /* MyPaint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9741FCC116A94CE100FCA84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9741FCD416A94CE200FCA84E /* InfoPlist.strings in Resources */,
+				9741FCDC16A94CE200FCA84E /* Default.png in Resources */,
+				9741FCDE16A94CE200FCA84E /* Default@2x.png in Resources */,
+				9741FCE016A94CE200FCA84E /* Default-568h@2x.png in Resources */,
+				9741FCED16A94D4900FCA84E /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9741FCBF16A94CE100FCA84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9741FCD616A94CE200FCA84E /* main.m in Sources */,
+				9741FCDA16A94CE200FCA84E /* AppDelegate.m in Sources */,
+				9741FCE316A94CE200FCA84E /* MyPaint.xcdatamodeld in Sources */,
+				9741FCEC16A94D4900FCA84E /* MainViewController.m in Sources */,
+				9741FCF816A9506400FCA84E /* PaintView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9741FCD216A94CE200FCA84E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9741FCD316A94CE200FCA84E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9741FCE416A94CE200FCA84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9741FCE516A94CE200FCA84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9741FCE716A94CE200FCA84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPaint/MyPaint-Prefix.pch";
+				INFOPLIST_FILE = "MyPaint/MyPaint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9741FCE816A94CE200FCA84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPaint/MyPaint-Prefix.pch";
+				INFOPLIST_FILE = "MyPaint/MyPaint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9741FCBD16A94CE100FCA84E /* Build configuration list for PBXProject "MyPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9741FCE416A94CE200FCA84E /* Debug */,
+				9741FCE516A94CE200FCA84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9741FCE616A94CE200FCA84E /* Build configuration list for PBXNativeTarget "MyPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9741FCE716A94CE200FCA84E /* Debug */,
+				9741FCE816A94CE200FCA84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9741FCE116A94CE200FCA84E /* MyPaint.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9741FCE216A94CE200FCA84E /* MyPaint.xcdatamodel */,
+			);
+			currentVersion = 9741FCE216A94CE200FCA84E /* MyPaint.xcdatamodel */;
+			path = MyPaint.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9741FCBA16A94CE100FCA84E /* Project object */;
+}
